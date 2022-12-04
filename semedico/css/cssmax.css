@@ -1,0 +1,90 @@
+body{
+	background-image: url('../img/caduceo.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding-top: 1em;
+    max-width: 70em;
+	margin: auto;
+    font-family: sans-serif;
+	text-align: center;
+}
+header {
+    line-height: 50px;
+    background-color: rgb(41, 45, 3);
+    opacity: 0.6;
+	text-align: center;
+	border: rgb(0, 0, 0) 5px double;
+	color: white;
+}
+.pregunta{
+	color: white;
+}
+.contenedorPregunta{
+	background-color: none;
+	padding-top: 0em;
+	padding-bottom: 22em;
+	color: white;
+}
+
+
+textarea{
+	font-size: 1.5em;
+	width:100%;
+}
+
+button{
+	margin-top:1em;
+	font-size: 2em;
+	width:100%;
+}
+
+.boton{
+    padding: 10px 85px;
+    background: black;
+    border: 10px #343800 double;
+    cursor: pointer;
+    position: relative;
+    border-radius: 3px;
+    overflow: hidden;
+    height: 5px;
+    width: 10px;
+    border-radius: 100px;
+    margin: 9em;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+.boton:hover{
+	background-color: #000000;
+	color: #ffffff;
+	
+}
+
+.limpiar{
+	clear: both;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+	background-color: rgb(0, 0, 0);
+	opacity: 0.9;
+	border: rgb(32, 37, 9) 5px double;
+    color:#ffffff;
+}
+.regreso{
+	color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.ali-derecha{
+	/*float: left;*/
+	width: 300px;
+	height: 200px;
+}
+
+h2{
+    color:rgb(0, 0, 0);
+}
